@@ -1,0 +1,1102 @@
+[ 2016-04-07T11:57:41+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-07T14:25:07+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T14:25:15+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T14:26:36+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T14:26:42+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T14:27:41+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T14:27:50+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T14:28:31+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T14:28:40+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T14:28:54+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T14:29:01+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-04-07T15:10:55+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-07T15:58:47+08:00 ] ::1 /csbweb/Home/Index/order
+ERR: 非法操作:order
+
+[ 2016-04-07T16:07:46+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-04-07T16:14:39+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-07T16:20:15+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-07T16:27:13+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T16:27:15+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T16:31:07+08:00 ] ::1 /csbweb/Home/Index/service?cat=18
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T16:31:11+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T16:44:03+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0061s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=23 [ RunTime:0.0006s ]
+
+[ 2016-04-07T16:44:04+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0059s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0005s ]
+
+[ 2016-04-07T16:44:07+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0052s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0006s ]
+
+[ 2016-04-07T16:44:23+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `csb_cart` (`business_id`,`service_id`,`district_id`,`number`,`status`,`user_id`,`create_time`,`create_user`) VALUES ('10','10','2261','1','1','11','1460018663','11') [ RunTime:0.0038s ]
+
+[ 2016-04-07T16:44:37+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0055s ]
+SQL: DELETE FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' [ RunTime:0.0040s ]
+
+[ 2016-04-07T16:44:52+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0060s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=1 [ RunTime:0.0005s ]
+
+[ 2016-04-07T16:44:54+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0052s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=1 [ RunTime:0.0005s ]
+
+[ 2016-04-07T16:44:56+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0045s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=1 [ RunTime:0.0004s ]
+
+[ 2016-04-07T16:45:02+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0065s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=23 [ RunTime:0.0005s ]
+
+[ 2016-04-07T16:45:03+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0067s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0006s ]
+
+[ 2016-04-07T16:45:06+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0062s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0006s ]
+
+[ 2016-04-07T16:46:50+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0062s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0005s ]
+
+[ 2016-04-07T16:48:10+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2262' AND `user_id` = '11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `csb_cart` (`business_id`,`service_id`,`district_id`,`number`,`status`,`user_id`,`create_time`,`create_user`) VALUES ('10','10','2262','1','1','11','1460018890','11') [ RunTime:0.0018s ]
+
+[ 2016-04-07T16:48:27+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0058s ]
+SQL: DELETE FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2262' [ RunTime:0.0032s ]
+
+[ 2016-04-07T16:55:34+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T16:55:35+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T16:55:36+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T16:55:38+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T16:55:41+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T17:03:00+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0063s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=23 [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:03:02+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0053s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:03:05+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0043s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0006s ]
+
+[ 2016-04-07T17:03:08+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-04-07T17:03:10+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-04-07T17:03:11+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-04-07T17:03:12+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-04-07T17:03:13+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-04-07T17:03:13+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-04-07T17:03:13+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-04-07T17:03:13+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-04-07T17:03:13+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-04-07T17:03:14+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-04-07T17:03:14+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-04-07T17:03:14+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-04-07T17:03:14+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-04-07T17:03:31+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-04-07T17:03:31+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-04-07T17:03:31+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-04-07T17:03:31+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-04-07T17:03:32+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-04-07T17:03:32+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-04-07T17:03:35+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-04-07T17:03:35+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-04-07T17:03:35+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+
+[ 2016-04-07T17:03:35+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-04-07T17:03:36+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-04-07T17:03:36+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-04-07T17:03:37+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-04-07T17:03:37+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-04-07T17:03:37+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-04-07T17:03:37+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-04-07T17:03:37+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+
+[ 2016-04-07T17:03:38+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-04-07T17:03:39+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-04-07T17:03:39+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-04-07T17:03:39+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-04-07T17:03:39+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-04-07T17:03:40+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-04-07T17:03:40+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-04-07T17:03:41+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-04-07T17:03:42+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-04-07T17:03:42+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-04-07T17:03:42+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-04-07T17:03:46+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-04-07T17:03:46+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-04-07T17:03:46+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-04-07T17:03:46+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-04-07T17:03:48+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-04-07T17:03:48+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-04-07T17:03:48+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-04-07T17:03:49+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-04-07T17:03:49+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-04-07T17:03:53+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-04-07T17:03:57+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:04:12+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0054s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=23 [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:04:14+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0061s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:04:16+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0053s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0006s ]
+
+[ 2016-04-07T17:04:20+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `csb_cart` (`business_id`,`service_id`,`district_id`,`number`,`status`,`user_id`,`create_time`,`create_user`) VALUES ('10','10','2261','1','1','12','1460019860','12') [ RunTime:0.0035s ]
+
+[ 2016-04-07T17:04:23+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-07T17:04:24+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-07T17:04:24+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-07T17:04:24+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-07T17:04:24+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-07T17:04:25+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:04:25+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '11' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `csb_cart` (`business_id`,`service_id`,`district_id`,`number`,`status`,`user_id`,`create_time`,`create_user`) VALUES ('11','10','2261','1','1','12','1460019865','12') [ RunTime:0.0032s ]
+
+[ 2016-04-07T17:04:27+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '12' AND `service_id` = '10' AND `district_id` = '2261' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `csb_cart` (`business_id`,`service_id`,`district_id`,`number`,`status`,`user_id`,`create_time`,`create_user`) VALUES ('12','10','2261','1','1','12','1460019867','12') [ RunTime:0.0037s ]
+
+[ 2016-04-07T17:04:39+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0052s ]
+SQL: UPDATE `csb_cart` SET `number`='2' WHERE `id` = '3' [ RunTime:0.0017s ]
+
+[ 2016-04-07T17:04:40+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0054s ]
+SQL: UPDATE `csb_cart` SET `number`='3' WHERE `id` = '3' [ RunTime:0.0018s ]
+
+[ 2016-04-07T17:04:40+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0038s ]
+SQL: UPDATE `csb_cart` SET `number`='4' WHERE `id` = '3' [ RunTime:0.0037s ]
+
+[ 2016-04-07T17:04:40+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0048s ]
+SQL: UPDATE `csb_cart` SET `number`='5' WHERE `id` = '3' [ RunTime:0.0037s ]
+
+[ 2016-04-07T17:04:40+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0049s ]
+SQL: UPDATE `csb_cart` SET `number`='6' WHERE `id` = '3' [ RunTime:0.0037s ]
+
+[ 2016-04-07T17:04:40+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0042s ]
+SQL: UPDATE `csb_cart` SET `number`='7' WHERE `id` = '3' [ RunTime:0.0020s ]
+
+[ 2016-04-07T17:04:41+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0059s ]
+SQL: UPDATE `csb_cart` SET `number`='6' WHERE `id` = '3' [ RunTime:0.0022s ]
+
+[ 2016-04-07T17:04:41+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0043s ]
+SQL: UPDATE `csb_cart` SET `number`='5' WHERE `id` = '3' [ RunTime:0.0018s ]
+
+[ 2016-04-07T17:04:41+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0040s ]
+SQL: UPDATE `csb_cart` SET `number`='4' WHERE `id` = '3' [ RunTime:0.0019s ]
+
+[ 2016-04-07T17:04:41+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0050s ]
+SQL: UPDATE `csb_cart` SET `number`='3' WHERE `id` = '3' [ RunTime:0.0021s ]
+
+[ 2016-04-07T17:04:42+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0058s ]
+SQL: UPDATE `csb_cart` SET `number`='2' WHERE `id` = '3' [ RunTime:0.0020s ]
+
+[ 2016-04-07T17:04:42+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0046s ]
+SQL: UPDATE `csb_cart` SET `number`='1' WHERE `id` = '3' [ RunTime:0.0038s ]
+
+[ 2016-04-07T17:04:52+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0055s ]
+SQL: DELETE FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2261' [ RunTime:0.0017s ]
+
+[ 2016-04-07T17:04:53+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0063s ]
+SQL: DELETE FROM `csb_cart` WHERE `business_id` = '11' AND `service_id` = '10' AND `district_id` = '2261' [ RunTime:0.0017s ]
+
+[ 2016-04-07T17:04:55+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0052s ]
+SQL: DELETE FROM `csb_cart` WHERE `business_id` = '12' AND `service_id` = '10' AND `district_id` = '2261' [ RunTime:0.0032s ]
+
+[ 2016-04-07T17:05:19+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0057s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=23 [ RunTime:0.0006s ]
+
+[ 2016-04-07T17:05:21+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0054s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:05:22+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0049s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:05:25+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2258' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `csb_cart` (`business_id`,`service_id`,`district_id`,`number`,`status`,`user_id`,`create_time`,`create_user`) VALUES ('10','10','2258','1','1','12','1460019925','12') [ RunTime:0.0023s ]
+
+[ 2016-04-07T17:05:29+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0059s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:05:40+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '11' AND `service_id` = '10' AND `district_id` = '2258' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `csb_cart` (`business_id`,`service_id`,`district_id`,`number`,`status`,`user_id`,`create_time`,`create_user`) VALUES ('11','10','2258','1','1','12','1460019940','12') [ RunTime:0.0039s ]
+
+[ 2016-04-07T17:05:43+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0056s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:05:52+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0108s ]
+SQL: DELETE FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2258' [ RunTime:0.0025s ]
+
+[ 2016-04-07T17:05:53+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0056s ]
+SQL: DELETE FROM `csb_cart` WHERE `business_id` = '11' AND `service_id` = '10' AND `district_id` = '2258' [ RunTime:0.0017s ]
+
+[ 2016-04-07T17:08:09+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0054s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=23 [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:08:10+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0054s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:08:12+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0084s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0008s ]
+
+[ 2016-04-07T17:08:13+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-04-07T17:08:16+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0044s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0006s ]
+
+[ 2016-04-07T17:08:18+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-04-07T17:08:22+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-04-07T17:08:25+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0063s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0006s ]
+
+[ 2016-04-07T17:08:30+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-04-07T17:08:33+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-04-07T17:09:43+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0061s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=1 [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:09:44+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0058s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=1 [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:09:46+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0052s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=1 [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:09:53+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0058s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=23 [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:09:54+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0061s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:09:55+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0049s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:09:57+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-04-07T17:10:00+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-04-07T17:11:59+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0070s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=23 [ RunTime:0.0005s ]
+
+[ 2016-04-07T17:12:00+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0052s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0004s ]
+
+[ 2016-04-07T17:12:02+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0054s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0007s ]
+
+[ 2016-04-07T17:12:03+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-04-07T17:12:09+08:00 ] ::1 /csbweb/Home/Cart/delRows
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-04-07T17:12:23+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-04-07T17:20:12+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-04-07T17:20:44+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0004s ]
+

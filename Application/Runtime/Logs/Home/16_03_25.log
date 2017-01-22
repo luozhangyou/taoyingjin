@@ -1,0 +1,471 @@
+[ 2016-03-25T09:47:30+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-25T10:05:10+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-03-25T10:26:35+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-03-25T11:22:27+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-25T11:32:06+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-25T11:34:37+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-03-25T11:51:46+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=&province_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-03-25T11:57:00+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-25T12:16:10+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:16:10+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/baseold.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:16:10+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/message.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:16:10+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/invoice.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:16:10+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/user.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:16:10+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/header.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:03+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/message.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:03+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/header.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:03+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:03+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/invoice.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:03+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/baseold.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:03+08:00 ] ::1 /csbweb/Public/Home/theme/cc/css/user.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:40+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/baseold.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:40+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/message.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:40+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:40+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/header.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:40+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/invoice.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:40+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/user.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:42+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/invoice.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:42+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/user.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:42+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/header.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:42+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/message.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:42+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/baseold.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:17:42+08:00 ] ::1 /csbweb/Public/Home/theme/defalut/css/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T12:30:24+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0079s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=1 [ RunTime:0.0007s ]
+
+[ 2016-03-25T12:30:27+08:00 ] ::1 /csbweb/Home/Service/cityList?service_id=10&province_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0084s ]
+SQL: SELECT DISTINCT c.id,c.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_city c ON c.id=sd.city_id
+										WHERE sd.service_id=10 AND sd.province_id=23 [ RunTime:0.0006s ]
+
+[ 2016-03-25T12:30:28+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0073s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0006s ]
+
+[ 2016-03-25T12:30:31+08:00 ] ::1 /csbweb/Home/Service/districtList?service_id=10&city_id=238
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `csb_service_district` [ RunTime:0.0090s ]
+SQL: SELECT d.id,d.`name`
+											FROM
+										csb_service_district sd
+											LEFT JOIN csb_district d ON d.id=sd.district_id
+										WHERE sd.service_id=10 AND sd.city_id=238 [ RunTime:0.0005s ]
+
+[ 2016-03-25T12:30:34+08:00 ] ::1 /csbweb/Home/Cart/addOrUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-03-25T12:30:52+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-03-25T12:30:52+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-03-25T12:30:53+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-03-25T12:30:53+08:00 ] ::1 /csbweb/Home/Cart/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8] Undefined index: user_id C:\wamp\www\csbweb\Application\Home\Common\Controller\CommonController.class.php 第 39 行.
+
+[ 2016-03-25T12:32:56+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-03-25T12:33:01+08:00 ] ::1 /csbweb/Home/Index/service?cat=20
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT DISTINCT p.id,p.`name`
+										FROM
+											csb_service_district sd
+										LEFT JOIN csb_province p ON p.id=sd.province_id
+    									WHERE sd.service_id=
+
+[ 2016-03-25T13:21:15+08:00 ] ::1 /csbweb/Home/Index/logi
+ERR: 非法操作:logi
+
+[ 2016-03-25T13:37:42+08:00 ] ::1 /csbweb/Home/Index/url
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+ERR: 非法操作:url
+
+[ 2016-03-25T13:38:32+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `csb_cart` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `csb_cart` WHERE `business_id` = '10' AND `service_id` = '10' AND `district_id` = '2262' AND `user_id` = '12' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `csb_cart` (`business_id`,`service_id`,`district_id`,`number`,`status`,`user_id`,`create_time`,`create_user`) VALUES ('10','10','2262','1','1','12','1458884312','12') [ RunTime:0.0035s ]
+
+[ 2016-03-25T13:38:57+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/css/common.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/css/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/js/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/js/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/css/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/css/base.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/js/dialog-min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/js/base.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/js/orders.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/js/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/css/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/css/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/js/dialog-min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/js/base.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:41:22+08:00 ] ::1 /csbweb/Public/Admin/theme/bc/js/orders.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/base.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/base.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/orders.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/dialog-min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/base.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:26+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/orders.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/base.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/dialog-min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/base.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/orders.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/dialog-min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/base.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:35+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/orders.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/base.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/dialog-min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/base.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/orders.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/dialog-min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/base.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:43:43+08:00 ] ::1 /csbweb/Public/Home/theme/bc/default/orders.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:45+08:00 ] ::1 /csbweb/Public/Home/theme/default/css/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:45+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:45+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:45+08:00 ] ::1 /csbweb/Public/Home/theme/default/css/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:45+08:00 ] ::1 /csbweb/Public/Home/theme/default/css/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:45+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:45+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:48+08:00 ] ::1 /csbweb/Public/Home/theme/default/css/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:48+08:00 ] ::1 /csbweb/Public/Home/theme/default/css/jquery-1.8.3.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:48+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:48+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:48+08:00 ] ::1 /csbweb/Public/Home/theme/default/css/global.js
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:48+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/ui-dialog.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:44:48+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/oders.css
+ERR: 无法加载控制器:Public
+
+[ 2016-03-25T13:52:11+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-25T14:01:20+08:00 ] ::1 /csbweb/Home/Login/login_customer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `csb_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `csb_user` WHERE `account` = '13890901407' AND `status` > 0 LIMIT 1   [ RunTime:0.0006s ]
+

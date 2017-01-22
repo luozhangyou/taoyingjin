@@ -1,0 +1,31 @@
+[ 2017-01-16T22:13:53+08:00 ] ::1 /taoyongjin/index.php/Admin/Index/console?_=1484576032712
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003467s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0006s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=1 and node.status=1 [ RunTime:0.0005s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=2 and node.status=1 [ RunTime:0.0005s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=9 and node.status=1 [ RunTime:0.0005s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=10 and node.status=1 [ RunTime:0.0005s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=22 and node.status=1 [ RunTime:0.0004s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=27 and node.status=1 [ RunTime:0.0005s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=40 and node.status=1 [ RunTime:0.0005s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=44 and node.status=1 [ RunTime:0.0004s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=54 and node.status=1 [ RunTime:0.0004s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=60 and node.status=1 [ RunTime:0.0004s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=61 and node.status=1 [ RunTime:0.0004s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=73 and node.status=1 [ RunTime:0.0004s ]
+SQL: select node.id,node.name from bbb_role as role,bbb_role_user as user,bbb_access as access ,bbb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=149 and node.status=1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+

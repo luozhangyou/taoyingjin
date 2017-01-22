@@ -1,0 +1,77 @@
+<script language="javascript">
+	function onClickTree(node){
+		var id = node.id;
+		var tit = node.text;
+		var url = node.url;
+		var icon = node.iconCls;
+		var code = node.code;
+		icon="fa fa-easyui fa-bars";
+		//alert(url);
+		if(url){
+			addTabs(id,tit,url,icon,code);
+		}
+	}
+	function addTabs(id,tit,url,icon,code){
+		$(function(){
+			var tab = null;
+			if(null!=tit){
+				tab = $("#rightTabs").tabs('getTab',tit);
+			}
+			if(null==tab){
+				$("#rightTabs").tabs('add',{
+					id:id,
+					title : tit,
+					href : url,
+					closable : true,
+					iconCls : icon
+				});
+			}else{
+				var index=$("#rightTabs").tabs('getTabIndex',tab);
+				$("#rightTabs").tabs('select',index);
+				$("#rightTabs").tabs('update',{
+					tab:tab,
+					options:{
+						id:id,
+						title : tit,
+						href : url,
+						closable : true,
+						iconCls : icon
+					} 
+				});
+			}
+		});
+	}
+	/* function initTree(){
+		 var requestData={};
+		 var data=ajaxReturnList("__MODULE__/Node/getSessionNodeList",requestData);
+		 if(null!=data){
+			 for(var i=0;i<data.length;i++){
+				 $("#leftMenu").append('<div id="firstMenu_'+data[i].id+'" title="系统管理" data-options="iconCls:'+"'icon-setting'"+'">'+
+						 '<ul class="easyui-tree left-tree" data-options="editable:false,lines:true,onClick:function(node){onClickTree(node);}">'+
+						 	
+						 '</ul></div>');
+				 var childList=data[i].childList;
+				 for(var j=0;j<childList.length;j++){
+					 $("#firstMenu_"+data[i].id+" ul").append('<li data-options="'+"text:'"+childList[j].title+"',url:'__MODULE__/User/index'"+'">'+childList[j].title+'</li>');
+				 }
+			 }
+		 }
+	} */
+	$(document).ready(function(){
+		//initTree();
+		
+	});
+</script>
+<div id="leftMenu" data-options="fit:true,border:false" class="easyui-accordion">
+  <foreach name="menuList" item="menu" >
+      <div title="{$menu.title}" data-options="iconCls:'icon-setting'">
+		 <ul class="easyui-tree left-tree" data-options="editable:false,lines:true,onClick:function(node){onClickTree(node);}">
+      		<foreach name="menu['children']" item="item" >
+			      <li data-options="id:'{$item.id}',text:'{$item.title}',url:'__ROOT__/Admin/{$menu.name}/{$item.name}'">{$item.title}</li>
+			</foreach>
+		 </ul>
+		</div>
+  </foreach>
+</div>
+
+

@@ -1,0 +1,95 @@
+[ 2016-11-13T01:25:23+08:00 ] ::1 /csbweb/
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ��֪�������������� 
+
+[ 2016-11-13T01:27:43+08:00 ] ::1 /csbweb/Home/Login/login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ��֪�������������� 
+
+[ 2016-11-13T01:28:25+08:00 ] ::1 /csbweb/Home/Login/login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ��֪�������������� 
+
+[ 2016-11-13T01:29:15+08:00 ] ::1 /csbweb/Home/Login/login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ��֪�������������� 
+
+[ 2016-11-13T01:30:05+08:00 ] ::1 /csbweb/Home/Login/login
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ��֪�������������� 
+
+[ 2016-11-13T02:07:11+08:00 ] ::1 /csbweb/Home/Index/login_manage
+ERR: 模板不存在:./Application/Home/View/Index/login_manage.htm
+
+[ 2016-11-13T02:08:42+08:00 ] ::1 /csbweb/login_manage
+ERR: 无法加载控制器:Login_manage
+
+[ 2016-11-13T02:08:50+08:00 ] ::1 /csbweb/
+ERR: 1146:La table 'csbweb.csb_service_cat' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `csb_service_cat`
+
+[ 2016-11-13T02:09:59+08:00 ] ::1 /csbweb/
+ERR: 1146:La table 'csbweb.csb_service_cat' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `csb_service_cat`
+
+[ 2016-11-13T02:15:46+08:00 ] ::1 /csbweb/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:09+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:09+08:00 ] ::1 /htsystem/Public/Home/theme/default/css/login.css
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:09+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.ajax.js
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:09+08:00 ] ::1 /htsystem/Public/Home/theme/default/css/login.css
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:28+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:28+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.ajax.js
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:28+08:00 ] ::1 /htsystem/Public/Home/theme/default/css/login.css
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:28+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.ajax.js
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:28+08:00 ] ::1 /htsystem/Public/Home/theme/default/css/login.css
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:50+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:50+08:00 ] ::1 /htsystem/Public/Home/theme/default/css/login.css
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:50+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.ajax.js
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:50+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.ajax.js
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:27:50+08:00 ] ::1 /htsystem/Public/Home/theme/default/css/login.css
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:29:18+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:30:23+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:30:24+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:32:37+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:34:27+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:41:28+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+
+[ 2016-11-13T02:41:37+08:00 ] ::1 /htsystem/Public/Home/theme/default/js/jquery.min.map
+ERR: 无法加载控制器:Public
+

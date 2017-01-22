@@ -1,0 +1,58 @@
+<script language="javascript">
+$(function(){
+	$("#clearCache").click(function(){
+		var o={};
+		o['type']="Admin-Home";
+		var obj=ajaxReturnList("__ROOT__/Admin/Index/clearCache",o);
+		$.messager.alert('系统提示', obj.msg , 'info');
+	});
+	
+	$('#updatePassword').tooltip({
+        content: $('<div></div>'),
+        showEvent: 'click',
+        onUpdate: function(content){
+            content.panel({
+                width: 320,
+                heiht: 400,
+                border: false,
+                title: '修改密码',
+                href: '__ROOT__/Admin/Index/password'
+            });
+        },
+        onShow: function(){
+            var t = $(this);
+            t.tooltip('tip').unbind().bind('mouseenter', function(){
+                t.tooltip('show');
+            }).bind('mouseleave', function(){
+                t.tooltip('hide');
+            });
+        }
+    });
+});
+</script>
+<div class="logo">
+  <script language="javascript">
+   document.write('<img id="logoImg" src="__PUBLIC__/Admin/theme/defalut/image/logo.png" /></div>');
+  </script>
+  <div class="show">
+   <div class="l2">
+   		<span id="localtime" style="margin-right:18px"></span>
+   		<a href="#" id="chgSkin" title="切换皮肤"><i class='fa fa-user'></i></a>
+   		<span class="hi">
+   			您好：<strong><?php echo $_SESSION['nickname']?></strong> 
+   			[<a id="updatePassword" href="javascript:;">修改密码</a>]
+   			[<a id="clearCache" href="javascript:;">清除缓存</a>]
+   			[<a target="_top" href="__ROOT__/Home/Login/logout_manange">安全退出</a>] 
+   			[<a href="javascript:;">帮助</a>]
+   		</span>
+   </div>
+</div>
+<script runat="server" language="javascript">
+function tick(){  
+    var today;  
+    today = new Date();
+    document.getElementById("localtime").innerHTML = showLocale(today);  
+    window.setTimeout("tick()", 1000);  
+}
+tick();
+</script>

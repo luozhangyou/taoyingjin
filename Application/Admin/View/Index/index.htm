@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+ <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" content="ie=edge" />
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>后台管理系统</title>
+ 
+ <load href="__PUBLIC__/Admin/widget/jquery-easyui-1.4.4/themes/bootstrap/easyui.css" />
+ <load href="__PUBLIC__/Admin/widget/jquery-easyui-1.4.4/themes/icon.css" />
+ <load href="__PUBLIC__/Admin/widget/jquery-easyui-1.4.4/jquery.min.js" />
+ <load href="__PUBLIC__/Admin/widget/jquery-easyui-1.4.4/jquery.easyui.min.js" />
+ <load href="__PUBLIC__/Admin/widget/jquery-easyui-1.4.4/locale/easyui-lang-zh_CN.js" />
+  
+ <load href="__PUBLIC__/Admin/theme/defalut/js/objFunc.js" />
+ <load href="__PUBLIC__/Admin/theme/defalut/js/jquery.ajax.js" /> 
+ <load href="__PUBLIC__/Admin/theme/defalut/js/util.js" />  
+ <load href="__PUBLIC__/Admin/widget/4.2.0/css/font-awesome.min.css" />
+ <load href="__PUBLIC__/Admin/theme/defalut/css/style.css" />
+ <load href="__PUBLIC__/Admin/theme/defalut/css/expand.css" /> 
+ 
+
+<load href="__PUBLIC__/Admin/widget/umeditor1_2_2-utf8-php/themes/default/css/umeditor.min.css" />
+<load href="__PUBLIC__/Admin/widget/umeditor1_2_2-utf8-php/umeditor.config.js" />
+<load href="__PUBLIC__/Admin/widget/umeditor1_2_2-utf8-php/umeditor.min.js" />
+<load href="__PUBLIC__/Admin/widget/umeditor1_2_2-utf8-php/lang/zh-cn/zh-cn.js" />
+
+</head>
+<body class="easyui-layout">
+ <div class="top" id="topBg" data-options="region:'north',border:false">
+  <include file="top" />
+ </div>
+ <div data-options="region:'west',split:true,title:'菜单'" style="width:165px;">
+  <include file="left" />
+ </div>
+ <div data-options="region:'center',split:true">
+  <div id="rightTabs" class="easyui-tabs" data-options="fit:true,border:false">
+    <div title="控制台" data-options="closable:false,id:-1,href:'__URL__/console'"></div>
+  </div>
+ </div>
+ <div id="repwd"></div>
+ <div id="setpwd"></div>
+</body>
+</html>

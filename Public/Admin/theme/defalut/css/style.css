@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+#topBg{
+	background-color: #E6EEF8;
+	height:35px;
+}
+a{
+	color: #1F1F1F;
+	font-size:13px;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.logo{
+	height: 32px;
+	width: 200px;
+	margin-left: 10px;
+	margin-top: 1px;
+	float:left;
+}
+.show{
+	float:right;
+	padding-top: 6px;
+	text-align: right;
+	line-height: 19px;
+	height: 20px;
+	margin-right: 2%;
+}
+.up-font-over{
+	color:red;
+}
+.table-border {
+    border-top: 1px solid #AEC0C6;
+    border-left: 1px solid #AEC0C6;
+    border-bottom: 1px solid #AEC0C6;
+    border-right: 1px solid #AEC0C6;
+}
+.tdbg{
+	background-color: #E6EEF8;
+	padding-right: 5px;
+	padding-left: 5px;
+	position: relative;
+	border-top: none;
+	border-left: none;
+	border-bottom: 1px solid #AEC0C6;
+	border-right: 1px solid #AEC0C6;
+}
+.addTable{
+	border: 1px solid #ddd;
+	width: 100%;
+	max-width: 100%;
+}
+.addTable tr{
+	background:#D9EDF7; 
+}
+.addTable tr:nth-child(2n){
+	background-color: #F5F5F5;
+}
+.addTable tr td{
+	padding:5px;
+}
+
+.textSpan{
+	width:120px;
+	text-align: right;
+}
+
+.addTableImage{
+	margin-top:5px;
+	display: block;
+	width:140px;
+}
+.uploadLabel{
+	cursor :pointer;
+	color: #F00;
+}
