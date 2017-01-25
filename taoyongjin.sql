@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2017-01-22 12:42:06
+Date: 2017-01-25 23:28:29
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -3795,10 +3795,6 @@ INSERT INTO `bbb_node` VALUES ('76', 'delRows', '删除', '1', '删除', '50', '
 INSERT INTO `bbb_node` VALUES ('86', 'provinceTree', '获取区域树', '1', '获取区域树', '50', '54', '3', '0', '0');
 INSERT INTO `bbb_node` VALUES ('87', 'serviceDistrict', '业务分区', '1', '业务分区管理', '50', '51', '3', '1', '0');
 INSERT INTO `bbb_node` VALUES ('92', 'getDistrictByCityId', '根据城市ID获取区域', '1', '根据城市ID获取区域', '50', '61', '3', '0', '0');
-INSERT INTO `bbb_node` VALUES ('101', 'Customer', '用户管理', '1', '用户管理', '50', '1', '2', '0', '0');
-INSERT INTO `bbb_node` VALUES ('102', 'addOrUpdate', '增加或更新', '1', '增加或更新', '50', '101', '3', '0', '0');
-INSERT INTO `bbb_node` VALUES ('103', 'pageList', '分页列表', '1', '分页列表', '50', '101', '3', '0', '0');
-INSERT INTO `bbb_node` VALUES ('104', 'delRows', '删除', '1', '删除', '50', '101', '3', '0', '0');
 INSERT INTO `bbb_node` VALUES ('121', 'getParent', '获取父级结点', '1', '获取父级结点', '50', '10', '3', '0', '0');
 INSERT INTO `bbb_node` VALUES ('122', 'serviceSetDistrict', '设置业务分区', '1', '批量设置固定价格的业务分区', '50', '51', '3', '0', '0');
 INSERT INTO `bbb_node` VALUES ('125', 'clearCache', '清除全局缓存', '1', '清除全局缓存', '50', '2', '3', '0', '0');
