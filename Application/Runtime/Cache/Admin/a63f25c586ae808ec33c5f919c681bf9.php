@@ -27,7 +27,7 @@
 
 </head>
 <body class="easyui-layout">
- <div class="top" id="topBg" data-options="region:'north',border:false">
+ <div class="top" id="topBg" data-options="region:'north',height:'62px',border:false">
   <script language="javascript">
 $(function(){
 	$("#clearCache").click(function(){
@@ -62,12 +62,12 @@ $(function(){
 </script>
 <div class="logo">
   <script language="javascript">
-   document.write('<img id="logoImg" src="/taoyongjin/Public/Admin/theme/defalut/image/logo.png" /></div>');
+   document.write('<img id="logoImg" src="/taoyongjin/Public/Admin/theme/defalut/images/logo.png" /></div>');
   </script>
   <div class="show">
    <div class="l2">
    		<span id="localtime" style="margin-right:18px"></span>
-   		<a href="#" id="chgSkin" title="切换皮肤"><i class='fa fa-user'></i></a>
+   		<a href="javascript:;" id="chgSkin" title="切换皮肤"><i class='fa fa-user'></i></a>
    		<span class="hi">
    			您好：<strong><?php echo $_SESSION['nickname']?></strong> 
    			[<a id="updatePassword" href="javascript:;">修改密码</a>]
@@ -87,7 +87,7 @@ function tick(){
 tick();
 </script>
  </div>
- <div data-options="region:'west',split:true,title:'菜单'" style="width:165px;">
+ <div data-options="region:'west',title:'菜单'" style="width:165px;">
   <script language="javascript">
 	function onClickTree(node){
 		var id = node.id;
@@ -163,11 +163,14 @@ tick();
 
 
  </div>
- <div data-options="region:'center',split:true">
+ <div data-options="region:'center'">
   <div id="rightTabs" class="easyui-tabs" data-options="fit:true,border:false">
     <div title="控制台" data-options="closable:false,id:-1,href:'/taoyongjin/index.php/Admin/Index/console'"></div>
   </div>
  </div>
+  <div class="footer" data-options="region:'south'" style="height:50px;">
+  	<center><p>技术支持：<a href="http://www.java321.com/" target="_blank">项链</a></p></center>
+  </div>
  <div id="repwd"></div>
  <div id="setpwd"></div>
 </body>

@@ -3,6 +3,7 @@
 #topBg{
 	background-color: #E6EEF8;
 	height:35px;
+	background: url("../images/topbg.png");
 }
 a{
 	color: #1F1F1F;
@@ -23,7 +24,7 @@ a:hover{
 	float:right;
 	padding-top: 6px;
 	text-align: right;
-	line-height: 19px;
+	line-height: 50px;
 	height: 20px;
 	margin-right: 2%;
 }
@@ -74,4 +75,12 @@ a:hover{
 .uploadLabel{
 	cursor :pointer;
 	color: #F00;
+}
+.footer{
+	background: url("../images/topbg.png");
+}
+.control{
+	width:600px;
+	height:500px;
+	margin: 10% auto 0px auto;
 }

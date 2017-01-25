@@ -10,5 +10,5 @@ return array(
     'MODULE_ALLOW_LIST' =>  array('Home','Admin'),
     'DEFAULT_MODULE' => 'Home',
 	'DB_PARAMS'    =>    array(\PDO::ATTR_CASE => \PDO::CASE_NATURAL),//取消数据库返回大小写转换
-	'LOAD_EXT_CONFIG' => 'conn,rabc'//自动加载其他配置文件
+	'LOAD_EXT_CONFIG' => 'conn,rabc,taobao'//自动加载其他配置文件
 );

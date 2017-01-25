@@ -7,7 +7,7 @@ $(function(){
 	var saveBtn="saveBtn_password";
 	var auForm="form_password";
 	$("#"+saveBtn).click(function(){
-		ajaxSubmitFormSimple(auForm,'/htsystem/Admin/User/updatePassword');
+		ajaxSubmitFormSimple(auForm,'/taoyongjin/Admin/User/updatePassword');
 	});
 });
 </script>

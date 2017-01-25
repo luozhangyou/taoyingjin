@@ -14,19 +14,9 @@ namespace Home\Common\Controller;
 use Think\Controller;
 
 class CommonController extends Controller {
+
     public function _initialize() {
     	
-        /* $menuItemList=$this->getMenuItemOfTopList($data);//获取菜单
-        $this->assign('menuItemList',$menuItemList);
-        
-        $categoryList=$this->getCategoryOfTopList($data);//获取所有顶级分类
-        $this->assign('categoryList',$categoryList);
-        
-        $singleList=$this->getSingleList($data);//获取所有单页
-        $this->assign('singleList',$singleList);
-        
-        $linkList=$this->getLinkList($data);//获取所有友情链接
-        $this->assign('linkList',$linkList); */
         
     }
 	public function getSessionUserId(){

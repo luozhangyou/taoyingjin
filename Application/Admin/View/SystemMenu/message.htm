@@ -8,7 +8,7 @@ $(function(){
 	var cancelBtn="cancelBtn_message";
 	
 	var th = $(".top").height();
-	th = 111-th
+	th = 204-th
 	var wh = $(window).height()-th;
 	var pr = 30;
 	var pn = false;

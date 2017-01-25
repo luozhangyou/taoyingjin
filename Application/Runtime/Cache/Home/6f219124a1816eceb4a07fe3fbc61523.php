@@ -11,7 +11,6 @@
 <title>js+css</title>
 
 <link rel="stylesheet" type="text/css" href="/taoyongjin/Public/Home/widget/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
-
 <script type="text/javascript" src="/taoyongjin/Public/Home/theme/default/js/jquery.min.js"></script>
 <script type="text/javascript" src="/taoyongjin/Public/Home/theme/default/js/jquery.ajax.js"></script>
 </head>
@@ -27,7 +26,7 @@
 	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
 }
 body{
-	/* background: url("/taoyongjin/Public/admin/default/images/loginBg.png") no-repeat; */
+	background: url("/taoyongjin/Public/Admin/theme/defalut/images/loginBg.png") no-repeat;
 	-moz-background-size:100% 100%; 
 	background-size:100% 100%;	
 }

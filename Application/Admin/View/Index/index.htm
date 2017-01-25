@@ -27,17 +27,20 @@
 
 </head>
 <body class="easyui-layout">
- <div class="top" id="topBg" data-options="region:'north',border:false">
+ <div class="top" id="topBg" data-options="region:'north',height:'62px',border:false">
   <include file="top" />
  </div>
- <div data-options="region:'west',split:true,title:'菜单'" style="width:165px;">
+ <div data-options="region:'west',title:'菜单'" style="width:165px;">
   <include file="left" />
  </div>
- <div data-options="region:'center',split:true">
+ <div data-options="region:'center'">
   <div id="rightTabs" class="easyui-tabs" data-options="fit:true,border:false">
     <div title="控制台" data-options="closable:false,id:-1,href:'__URL__/console'"></div>
   </div>
  </div>
+  <div class="footer" data-options="region:'south'" style="height:50px;">
+  	<center><p>技术支持：<a href="http://www.java321.com/" target="_blank">项链</a></p></center>
+  </div>
  <div id="repwd"></div>
  <div id="setpwd"></div>
 </body>
